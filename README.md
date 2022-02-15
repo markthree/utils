@@ -1,62 +1,27 @@
-# node-lib-template
+# utils
 
-开箱即用的 node 库模板
-
-<br />
-
-## features
-
-- pnpm 的
-- vitest 测试
-- 开箱即用的
-- typescript 的
+通用工具库
 
 <br />
 
-## Usage
 
-### install
 
-```shell
-pnpm i
-```
+## 使用 🦖
 
-### test
+### 安装
 
 ```shell
-pnpm test
+pnpm i @markthree/utils -D
 
-// or pnpm test:watch
+# 或者 npm i @markthree/utils -D
+# 或者 yarn add @markthree/utils -D
 ```
 
-### build
+<br />
+<br />
 
-```shell
-pnpm build
+## License
 
-// pnpm build:watch
-```
+Made with [markthree](https://github.com/markthree)
 
-### coverage
-
-```shell
-pnpm coverage
-```
-
-### dev
-
-```shell
-pnpm dev
-```
-
-### publish
-
-```shell
-npm publish
-```
-
-### play
-
-```shell
-pnpm play
-```
+Published under [MIT License](./LICENSE).
