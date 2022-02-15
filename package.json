@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "name": "node-lib-template",
-  "description": "开箱即用的 node 库模板",
+  "version": "0.0.1",
+  "name": "@markthree/utils",
+  "description": "通用工具库",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -11,6 +11,9 @@
       "import": "./dist/index.mjs",
       "types": "./dist/index.d.ts"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "dist"
@@ -31,9 +34,20 @@
     "node",
     "utils"
   ],
-  "author": "markthree",
+  "author": {
+    "name": "markthree",
+    "email": "1801982702@qq.com",
+    "url": "https://github.com/markthree"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markthree/utils.git"
+  },
+  "bugs": {
+    "email": "1801982702@qq.com",
+    "url": "https://github.com/markthree/utils/issues"
+  },
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "^17.0.10",
     "c8": "^7.11.0",
