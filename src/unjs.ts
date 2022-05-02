@@ -79,7 +79,7 @@ export const P = Promise.resolve.bind(Promise)
  * @param delay 延迟
  * @returns 防抖后的函数
  */
-export const debounce = <T extends () => unknown>(
+export const debounce = <T extends (...args: any) => any>(
 	invoke: T,
 	delay = 500
 ) => {
@@ -102,7 +102,7 @@ export const debounce = <T extends () => unknown>(
  * @param delay 延迟 - default to 500
  * @returns 节流后的函数
  */
-export const throttle = <T extends () => unknown>(
+export const throttle = <T extends (...args: any) => any>(
 	invoke: T,
 	delay = 500
 ) => {
